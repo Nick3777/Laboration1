@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="loginstyle.css" />
+    <link rel="stylesheet" type="text/css" href="navigation.css" />
+    <script src="login.js"></script>
+</head>
+
+<body>
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-container">
+        <ul>
+            <li>
+                <a href="home.html">
+                    <span class="text">Home</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="login.html">
+                    <span class="text">Login</span>
+                </a>
+            </li>
+            <li>
+                <a href="nick.html">
+                    <span class="text">Nick</span>
+                </a>
+            </li>
+            <li>
+                <a href="hannes.html">
+                    <span class="text">Hannes</span>
+                </a>
+        </ul>
+    </div>
+</div>
+<div class="login" id="login">
+    <div class="login-information">
+        <div class="image-container">
+            <img src="/images/logImage.svg" alt="general-log-image" class="LogImage"/>
+        </div>
+        <form name="login-form" method="get" action="#">
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="username" id="username" required/>
+            <label for="password"><b>Password</b></label>
+            <div class="wrapper-psw"><input type="password" id="password" placeholder="password" required
+                   pattern="(?=.*\d)(?=(.*[A-Z]){2}).{8,}"
+                   title="Must contain at least one number and two uppercase
+                    and at least 8 or more characters"
+                    onfocus="pswfocus()" onblur="pswonblur()" onkeyup="psw_validate()"/>
+            <div id="message">
+                <h4>Password must contain the following:</h4>
+                <p>Two capital (uppercase) letter</p>
+                <p>A number</p>
+                <p>Minimum 8 characters</p>
+            </div>
+            </div>
+            <input type="checkbox" name="rem" id="remember-me" value="Remember me?">
+                <label for="remember-me">Remember me?</label>
+            <input type="submit" name="submit" value="Login" onclick="process()"/>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <h2>Information</h2>
+        <div class="overlay-paragraph">
+            <p>
+                Hello and Welcome to our Login page.
+            </p>
+            <p>
+                This Login page has been completely made using
+                <a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a>
+                and
+                <a href="https://it.wikipedia.org/wiki/CSS">CSS3</a>
+                as a project, and we hope that you like it.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

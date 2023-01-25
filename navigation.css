@@ -1,0 +1,39 @@
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background: #042331;
+    min-width: 150px;
+}
+
+.sidebar-container{
+    margin-top: 20%;
+}
+
+ul li a{
+    display: block;
+    padding: 14px 20px;
+    border-bottom: 1px solid #03374e;
+    color: #0e94d4;
+    max-width: 100%;
+}
+
+.text{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    background: #0e94d4;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1026px) {
+    #sidebar {
+        display: none;
+    }
+}

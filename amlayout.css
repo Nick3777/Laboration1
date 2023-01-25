@@ -1,0 +1,66 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("/images/background.jpg");
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
+
+.wrapper{
+    width: 75%;
+    min-width: 750px;
+    height: 90%;
+    min-height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1026px) {
+    #wrapper {
+        transform: translate(-50%, -50%);
+    }
+}
+
+section{
+    background-color: whitesmoke;
+    float: left;
+    height: 100%;
+    padding: 5%;
+    width: 78%;
+    box-sizing: border-box;
+}
+
+aside{
+    background-color: royalblue;
+    float: left;
+    height: 100%;
+    padding: 1%;
+    width: 22%;
+    box-sizing: border-box;
+}
+
+meter{
+    width: 100%;
+}
+
+.profile-wrapper, .studies-wrapper, .hobbies-wrapper{
+    height: 22px;
+}
+
+.icon{
+    margin-right: 2%;
+    float: left;
+    max-height: 100%;
+}
