@@ -74,15 +74,10 @@ form{
 
 input[type=text], input[type=password]{
     margin-bottom: 2%;
-    position: sticky;
     padding: 12px 20px;
     width: 100%;
     border: 2px solid;
     box-sizing: border-box;
-}
-
-input[type=checkbox]{
-    float:bottom;
 }
 
 
@@ -104,19 +99,12 @@ input[type=submit]{
     box-sizing: border-box;
 }
 
-.wrapper-psw{
-    position: relative;
-}
-
-
 #message{
     width: 100%;
     display: none;
     background: lightskyblue;
     position: absolute;
-
     color: black;
-    z-index: 1;
 }
 
 #message h4{
@@ -127,6 +115,6 @@ input[type=submit]{
 
 #message p{
     color: black;
-    font-size: 2vh;
+    font-size: 14px;
     margin: 3px;
 }
