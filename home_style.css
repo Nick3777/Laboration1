@@ -2,18 +2,18 @@ html,body{
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 100%;
 }
 
-.home-wrapper {
+.home-wrapper{
     width: 85%;
     margin-left: 15%;
     padding-left: 5%;
     box-sizing: border-box;
 }
 
-h1 {
+h1{
     font-size: xxx-large;
     font-family: "Comic Sans MS";
     color: darkblue;
+    box-sizing: border-box;
 }
