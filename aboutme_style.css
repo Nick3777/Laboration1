@@ -4,7 +4,7 @@ html,body{
     background-attachment: fixed;
     padding: 0;
     margin: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 body{
@@ -46,17 +46,24 @@ h3{
     }
 }
 
+@media only screen and (max-height: 550px) {
+    #wrapper {
+    }
+}
+
 section{
+    position: relative;
     backdrop-filter: blur(20px);
     float: left;
     font-size: large;
     height: 100%;
-    padding: 5%;
+    padding: 2% 5% 5%;
     width: 78%;
     box-sizing: border-box;
 }
 
 aside{
+    position: relative;
     background-color: lightskyblue;
     float: left;
     height: 100%;
