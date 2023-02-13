@@ -26,12 +26,12 @@ ul li a{
     font-size: 18px;
     letter-spacing: 2px;
 }
-
+/*
 a:hover{
     background: #0e94d4;
     color: #fff;
 }
-
+*/
 @media only screen and (max-width: 1026px) {
     #sidebar {
         display: none;

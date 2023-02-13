@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About me-Nick</title>
+    <meta name="keywords" content="blog, nick, Laboration1">
+    <meta name="description" content="This is a Page about Nick">
+    <meta name="author" content="Nick">
+    <title>About Nick</title>
     <link rel="stylesheet" type="text/css" href="aboutme_style.css" />
     <link rel="stylesheet" type="text/css" href="navigation.css" />
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
 </head>
 <body>
-
+<!--
 <div class="sidebar" id="sidebar">
     <div class="sidebar-container">
         <ul>
@@ -34,6 +38,14 @@
         </ul>
     </div>
 </div>
+-->
+<div class="flex-container">
+    <div class="menu_item"><a href="home.html">Home</a></div>
+    <div class="menu_item"><a href="login.html">Login</a></div>
+    <div class="menu_item"><a href="nick.html">Nick</a></div>
+    <div class="menu_item"><a href="hannes.html">Hannes</a></div>
+</div>
+
 <div class="wrapper" id="wrapper">
     <aside>
         <div class="general-info">
@@ -45,7 +57,7 @@
                 International Student,<br>
                 <a href="https://lnu.se/en/">Linnaeus University</a>
             </p>
-            <svg height="2" width="80%">
+            <svg height="2" width="80%" class="svg">
                 <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(255,255,255);stroke-width:2"/>
             </svg>
         </div>
@@ -53,12 +65,14 @@
             <h3>
                 Details:
             </h3>
-            <p>
-                +393315983254<br>
-                Stallvagen 28<br>
-                Sweden<br>
-                nb222xa@student.lnu.se
-            </p>
+            <div>
+                <p>
+                    +39 331 598 3254<br>
+                    Stallvagen 28<br>
+                    Sweden<br>
+                    nb222xa@student.lnu.se
+                </p>
+            </div>
             <h3>
                 Skills:
             </h3>
@@ -102,7 +116,7 @@
                 </p>
         </article>
         <article>
-            <div class="studies -wrapper">
+            <div class="studies-wrapper">
                 <img src="/images/StudiesIc.svg" alt="studies_icon" class="icon"/>
                 <h3>
                     Studies
@@ -132,5 +146,6 @@
         </article>
     </section>
 </div>
+
 </body>
 </html>
