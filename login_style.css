@@ -5,15 +5,14 @@ body{
 
 h2 {
     font-weight: bolder;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: xx-large;
     text-align: center;
-    color: deepskyblue;
     margin: 8px auto;
 }
 
 p{
-    color: white;
+    color: #3A827E;
     padding: 0 5%;
     text-align: justify;
     font-size: x-large;
@@ -92,7 +91,7 @@ input[type=submit]{
 }
 
 .overlay-container{
-    background-color: royalblue;
+    background-color: lightskyblue;
     float:left;
     height: 100%;
     width: 50%;
@@ -117,4 +116,17 @@ input[type=submit]{
     color: black;
     font-size: 14px;
     margin: 3px;
+}
+
+a:link {
+    color: #03374E;
+}
+a:visited {
+    color: #3A827E;
+}
+a:hover {
+    color: #BEF6CF;
+}
+a:active {
+    color: #1C3F55;
 }

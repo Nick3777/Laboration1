@@ -1,29 +1,43 @@
 html,body{
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
     width: 100%;
 }
 
 body{
-    background-image: url("/images/background.jpg");
+    background-image: url("/images/nbg.jpg");
 }
 
 p{
+    color: #3A827E;
     text-align: justify;
-    color: black;
+}
+
+h2{
+    padding-left: 15px;
+    font-size: xx-large;
+    color: mediumblue;
+    font-family: "Bradley Hand ITC", cursive;
+}
+
+h3{
+    color: #5F9EA0;
 }
 
 .wrapper{
     width: 75%;
     min-width: 750px;
-    height: 90%;
-    min-height: 550px;
+    height: 550px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-40%, -50%);
     border-radius: 25px;
     overflow: hidden;
+    border: solid 1px white;
 }
 
 @media only screen and (max-width: 1026px) {
@@ -33,8 +47,9 @@ p{
 }
 
 section{
-    background-color: whitesmoke;
+    backdrop-filter: blur(20px);
     float: left;
+    font-size: large;
     height: 100%;
     padding: 5%;
     width: 78%;
@@ -42,7 +57,7 @@ section{
 }
 
 aside{
-    background-color: royalblue;
+    background-color: lightskyblue;
     float: left;
     height: 100%;
     padding: 1%;
@@ -61,5 +76,19 @@ meter{
 .icon{
     margin-right: 2%;
     float: left;
-    max-height: 100%;
+    max-width: 35px;
+    margin-bottom: 8px;
+}
+
+a:link {
+    color: #03374E;
+}
+a:visited {
+    color: #3A827E;
+}
+a:hover {
+    color: #BEF6CF;
+}
+a:active {
+    color: #1C3F55;
 }
