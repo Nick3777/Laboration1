@@ -12,7 +12,7 @@ html,body {
 .flex-container {
     display: flex;
     height: 30px;
-    width: 100%;
+    width: 100vw;
     top:0;
     flex-direction: row;
     background: #182B3A;
