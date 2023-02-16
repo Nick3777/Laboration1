@@ -1,5 +1,5 @@
 html,body{
-    background-image: url("/images/background_home.jpg");
+    background-image: url("/images/background.jpg");
     background-size: cover;
     background-position-y: center;
     background-attachment: fixed;
@@ -30,8 +30,24 @@ html,body{
 .menu_item:hover {
     background: #72D2A4;
 }
+@keyframes svg-animation {
+    0%   {filter: drop-shadow(100px 5px 5px #182B3A) invert(0%);}
+    25%  {filter: drop-shadow(5px 100px 5px #1C3F55) invert(30%);}
+    50%  {filter: drop-shadow(5px 5px 100px #3A827E) invert(60%);}
+    100% {filter: drop-shadow(10px 10px 10px #72D2A4) invert(90%);}
+}
 
-
+.svg{
+    filter: drop-shadow(5px 5px 5px #BEF6CF) invert(90%);
+    width: 800px;
+    display: block;
+    margin: 100px auto;
+    position: sticky;
+    top: 50px;
+    z-index:9;
+    animation-name: svg-animation;
+    animation-duration: 4s;
+}
 .home-wrapper{
     width: 100%;
     padding-top: 15px;
@@ -43,7 +59,7 @@ h1{
     text-align: center;
     font-size: xxx-large;
     font-family: "Lucida Handwritig", "Lucida Handwriting",cursive;
-    color: #0067FF;
+    color: #182B3A;
     box-sizing: border-box;
 }
 
@@ -92,10 +108,10 @@ td{
 h2{
     margin-left: 10%;
     margin-bottom: 0;
-    color: antiquewhite;
+    color: #5F9EA0;
     font-size: xx-large;
     padding-left: 0;
-    font-family: "Algerian" , "Algerian", cursive;
+    font-family: "schoolbell" , "Algerian", cursive;
 }
 
 img[alt="image of programming languages"] {
