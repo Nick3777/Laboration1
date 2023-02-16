@@ -9,9 +9,11 @@
     <title>About Hannes</title>
     <link rel="stylesheet" type="text/css" href="hannes.css" />
     <link href="https://fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
+    <script src="gofullscreen.js"></script>
 </head>
 <body>
     <img src = "/images/hannes.svg" alt="About Hannes" class="svg"/>
+    <div class="fsplane" id="fsplane" onclick="this.style.display='none';"></div>
 
 <div class="flex-container">
         <div class="menu_item"><a href="home.html">Home</a></div>
@@ -22,13 +24,13 @@
     <div class="content">
         <h1>Välkommen</h1>
         <p><b>Hej there,</b></p>
-        <p>My Name is Hannes, i am from Germany and study business informatics at <a href="https://www.hochschule-ruhr-west.de/">Hochschule Ruhr West</a> in Germany. But in Januari 2023 i decided to go abroad with the Erasmus programme, so right now, i am studying in Sweden at Linnaeus University, which is located in Växjö. I really like the swedish nature, so here are some pictures i took:</p>
+        <p>My Name is Hannes, i am from Germany and study business informatics at <a href="https://www.hochschule-ruhr-west.de/">Hochschule Ruhr West</a> in Germany. But in January 2023 i decided to go abroad with the Erasmus programme, so right now, i am studying in Sweden at Linnaeus University, which is located in Växjö. I really like the swedish nature, so here are some pictures i took:</p>
         <h2>Trip to Abisko</h2>
-        <p>Abisko i a small town in the north of Sweden. It's located in a beautiful national park and is the starting-point of the famous Kungsleden</p>
+        <p>Abisko is a small town in the north of Sweden. It's located in a beautiful national park and is the starting-point of the famous Kungsleden ❌</p>
         <div class="grid-container">
-            <div><img src="https://i.ibb.co/L8ccRqz/p1.jpg" alt="Watching the northern lights" class="imgg"></div>
+            <div><img src="https://i.ibb.co/L8ccRqz/p1.jpg" alt="Watching the northern lights" class="imgg"  onclick="gofullscreen('https://i.ibb.co/L8ccRqz/p1.jpg')"></div>
             <div><img src="https://i.ibb.co/ryLK7pr/p2.jpg" alt="Forest photographed out of the plane" class="imgg"></div>
-            <div><img src="https://i.ibb.co/G5bRrhm/p3.jpg" alt="The Lake Torneträsk" class="imgg"></div>
+            <div><img src="https://i.ibb.co/G5bRrhm/p3.jpg" alt="The Lake Torneträsk" class="imgg-wide"></div>
             <div><img src="https://i.ibb.co/WsD7Q4w/p4.jpg" alt="The Kungsleden" class="imgg"></div>
             <div><img src="https://i.ibb.co/6NkzxXM/p5.jpg" alt="Aurora Borealis" class="imgg"></div>
             <div><img src="/images/bg.jpg" alt="The sky at night" class="imgg"></div>
