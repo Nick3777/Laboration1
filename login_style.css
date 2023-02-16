@@ -142,6 +142,10 @@ input[type=submit]{
     margin: 3px;
 }
 
+.overlay-container h2{
+    color: blue;
+}
+
 .flex-container a:link {
     color: #72D2A4;
 }
