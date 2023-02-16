@@ -39,17 +39,75 @@ html,body{
     box-sizing: border-box;
 }
 
-table{
-    margin-left: 250px;
-}
-
-
 h1{
     text-align: center;
     font-size: xxx-large;
     font-family: "Lucida Handwritig", "Lucida Handwriting",cursive;
     color: #0067FF;
     box-sizing: border-box;
+}
+
+.introduction{
+    display: flex;
+    margin: 0 10%;
+}
+
+.project{
+    display: flex;
+    margin: auto 10%;
+}
+
+.introduction p{
+    max-width: 70%;
+    float: left;
+    color: #3A827E;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+.project p{
+    max-width: 70%;
+    float: left;
+    color: #3A827E;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+table{
+    float: left;
+    right: 0;
+    text-align: center;
+    color: darkturquoise;
+}
+
+.t_title{
+    font-weight: bold;
+}
+
+td{
+    border: 1px solid white;
+    margin:0;
+}
+
+h2{
+    margin-left: 10%;
+    margin-bottom: 0;
+    color: antiquewhite;
+    font-size: xx-large;
+    padding-left: 0;
+    font-family: "Algerian" , "Algerian", cursive;
+}
+
+img[alt="image of programming languages"] {
+    width: 25%;
+}
+
+.pro{
+    background-color: green;
+}
+
+.cons{
+    background-color: red;
 }
 
 a:link {
