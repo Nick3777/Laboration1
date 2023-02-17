@@ -53,15 +53,16 @@ h3{
     color: #5F9EA0;
 }
 
-label{
-    color: #3A827E;
-}
-
 aside h3{
     color: black;
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+label{
+    color: #3A827E;
+}
+
 
 aside p{
     margin-bottom: 5px;

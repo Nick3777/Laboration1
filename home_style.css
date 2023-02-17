@@ -63,6 +63,16 @@ h1{
     box-sizing: border-box;
 }
 
+
+h2{
+    margin-left: 10%;
+    margin-bottom: 0;
+    color: #5F9EA0;
+    font-size: xx-large;
+    padding-left: 0;
+    font-family: "schoolbell" , "Algerian", cursive;
+}
+
 .introduction{
     display: flex;
     margin: 0 10%;
@@ -103,15 +113,6 @@ table{
 td{
     border: 1px solid white;
     margin:0;
-}
-
-h2{
-    margin-left: 10%;
-    margin-bottom: 0;
-    color: #5F9EA0;
-    font-size: xx-large;
-    padding-left: 0;
-    font-family: "schoolbell" , "Algerian", cursive;
 }
 
 img[alt="image of programming languages"] {
